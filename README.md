@@ -1,10 +1,22 @@
-## CloudGuard Solutions
+# ie2-website (CloudGuard Solutions)
 
-This app was created using https://getmocha.com.
-Need help or want to join the community? Join our [Discord](https://discord.gg/shDEGBSe2d).
+Marketing website for **CloudGuard Solutions** — expert IT consultancy for
+cloud infrastructure, archiving solutions, and data compliance.
 
-To run the devserver:
+## Tech stack
+
+Static single-page site built with Tailwind CSS (CDN), Inter & Space Grotesk
+fonts. No build step required.
+
+## Preview
+
+Open `index.html` in a browser, or serve the directory:
+
+```sh
+python3 -m http.server 8000
+# then open http://localhost:8000
 ```
-npm install
-npm run dev
-```
+
+## Project
+
+Source: <https://github.com/ashrufr/ie2-website>
